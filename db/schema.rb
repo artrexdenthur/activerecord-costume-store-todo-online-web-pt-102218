@@ -18,8 +18,13 @@ ActiveRecord::Schema.define(version: 3) do
     t.integer "costume_inventory"
     t.integer "num_of_employees"
     t.boolean "still_in_business"
+<<<<<<< HEAD
     t.datetime "opening_time"
     t.datetime "closing_time"
+=======
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+>>>>>>> 15b50ade3e009fa72a491c306156b732a97699d6
   end
 
   create_table "costumes", force: :cascade do |t|
@@ -31,6 +36,7 @@ ActiveRecord::Schema.define(version: 3) do
     t.datetime "updated_at", null: false
   end
 
+<<<<<<< HEAD
   create_table "haunted_houses", force: :cascade do |t|
     t.string "name"
     t.string "location"
@@ -42,4 +48,6 @@ ActiveRecord::Schema.define(version: 3) do
     t.text "description"
   end
 
+=======
+>>>>>>> 15b50ade3e009fa72a491c306156b732a97699d6
 end
